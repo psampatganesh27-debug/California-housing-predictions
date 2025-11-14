@@ -44,7 +44,9 @@ with col2:
             'Population': [population],
             'AveOccup': [ave_occup],
             'Latitude': [latitude],
-            'Longitude': [longitude]
+            'Longitude': [longitude],
+            'Rooms per person' : [Rooms_per_person],
+            'Bedrooms per room' : [Bedrms_per_room]
         })
         
         # Make a prediction
