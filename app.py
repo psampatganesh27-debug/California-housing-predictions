@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load('final_model.joblib')
+model = joblib.load('final_model_v2.joblib')
 
 # Set the page title and header
 st.set_page_config(page_title="California Housing Price Predictor", layout="wide")
