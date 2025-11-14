@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load('final_model_v2.joblib')
+model = joblib.load('final_model.joblib')
 
 # Set the page title and header
 st.set_page_config(page_title="California Housing Price Predictor", layout="wide")
@@ -44,9 +44,7 @@ with col2:
             'Population': [population],
             'AveOccup': [ave_occup],
             'Latitude': [latitude],
-            'Longitude': [longitude],
-            'Rooms per person' : [Rooms_per_person],
-            'Bedrooms per room' : [Bedrms_per_room]
+            'Longitude': [longitude]
         })
         
         # Make a prediction
